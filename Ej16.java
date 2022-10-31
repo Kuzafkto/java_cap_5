@@ -12,20 +12,26 @@ public class Ej16{
         System.out.println("Ingresa un número para comprobar si es primo");
         int num = sc.nextInt();
         boolean cousin = true;
-        if (num%2==0){
-            cousin=false;
-            System.out.println("El número no es primo");
-
-        }
-        for(int i = 3 ; i<=num/i && cousin ; i+=2 ){
-            if (num%i==0){
+        if (num > 0) {
+            if (num%2==0){
                 cousin=false;
                 System.out.println("El número no es primo");
+
             }
+            for(int i = 3 ; i<=num/i && cousin ; i+=2 ){
+                if (num%i==0){
+                    cousin=false;
+                    System.out.println("El número no es primo");
+                }
+            }
+            if (cousin){
+                System.out.println("El número es primo");
+            }
+
+        }else {
+            System.out.println("El número no puede ser igual o menor que 0");
         }
-        if (cousin){
-            System.out.println("El número es primo");
-        }
+
         
         sc.close();
     }
