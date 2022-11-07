@@ -29,7 +29,7 @@ Introduzca la altura de la figura: 5
 import java.util.Formattable;
 import java.util.Scanner;
 
-public class Ej56 {
+public class Ejercicio56 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Introduzca la altura de la figura: ");

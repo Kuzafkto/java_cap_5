@@ -31,7 +31,7 @@ La altura no es correcta, debe ser un número impar mayor o igual que 3.
 
 import java.util.Scanner;
 
-public class Ej66 {
+public class Ejercicio66 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Por favor, introduzca la altura de la figura: ");

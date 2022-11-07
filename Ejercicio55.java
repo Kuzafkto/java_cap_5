@@ -30,7 +30,7 @@ El número resultado es 8
 
 import java.util.Scanner;
 
-public class Ej55 {
+public class Ejercicio55 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Introduzca un número: ");

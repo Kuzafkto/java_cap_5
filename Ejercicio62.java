@@ -40,7 +40,7 @@ El 6789 es un número afortunado.
 
 import java.util.Scanner;
 
-public class Ej62 {
+public class Ejercicio62 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("");

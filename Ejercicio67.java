@@ -21,7 +21,7 @@ Introduzca la altura de cada escalón: 2
 
 import java.util.Scanner;
 
-public class Ej67 {
+public class Ejercicio67 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Introduzca el número de escalones: ");

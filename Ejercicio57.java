@@ -27,7 +27,7 @@ Introduzca la altura de la figura: 5
 
 import java.util.Scanner;
 
-public class Ej57 {
+public class Ejercicio57 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Introduzca la altura de la figura: ");

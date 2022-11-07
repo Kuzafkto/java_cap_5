@@ -37,7 +37,7 @@ Y
 
 import java.util.Scanner;
 
-public class Ej59 {
+public class Ejercicio59 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Por favor, introduzca la altura del árbol: ");
