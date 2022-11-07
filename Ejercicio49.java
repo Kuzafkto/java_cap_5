@@ -28,8 +28,8 @@ public class Ejercicio49 {
         Scanner sc = new Scanner(System.in);
         int n = 0;
         boolean prime = false;
-        int maxNum=Integer.MIN_VALUE;
-        int minNum=Integer.MAX_VALUE;
+        int maxNum=Integer.MIN_VALUE; //Added in class
+        int minNum=Integer.MAX_VALUE; //Added in class
        int  counter = 0 ;
        double total = 0;
 
