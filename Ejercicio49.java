@@ -28,12 +28,12 @@ public class Ejercicio49 {
         Scanner sc = new Scanner(System.in);
         int n = 0;
         boolean prime = false;
-        int maxNum=0;
-        int minNum=2147483647;
+        int maxNum=Integer.MIN_VALUE;
+        int minNum=Integer.MAX_VALUE;
        int  counter = 0 ;
        double total = 0;
 
-        System.out.println(" Por favor, vaya introduciendo números enteros positivos. Para terminar, introduzca un número primo: ");
+        System.out.print(" Por favor, vaya introduciendo números enteros positivos. Para terminar, introduzca un número primo: ");
 
         while (!prime){
             n=sc.nextInt();
