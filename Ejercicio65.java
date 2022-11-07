@@ -58,7 +58,7 @@ Introduzca la fila del palito horizontal (entre 2 y 4): 4
 
 import java.util.Scanner;
 
-public class Ej65 {
+public class Ejercicio65 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Introduzca la altura de la A (un número mayor o igual a 3): ");

@@ -36,7 +36,7 @@ Introduzca la altura de la pirámide maya: 8
 
 import java.util.Scanner;
 
-public class Ej69 {
+public class Ejercicio69 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("");

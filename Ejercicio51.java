@@ -20,7 +20,7 @@ El gusano numérico no se ha comido ningún dígito.
 
 import java.util.Scanner;
 
-public class Ej51 {
+public class Ejercicio51 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String worm ="";

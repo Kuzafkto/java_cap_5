@@ -39,7 +39,7 @@ La altura debe ser mayor o igual a 3.
 
 import java.util.Scanner;
 
-public class Ej61 {
+public class Ejercicio61 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("");

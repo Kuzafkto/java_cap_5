@@ -21,10 +21,10 @@ import java.lang.Math;
 public class Ejercicio43 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Por favor, introduzca un número entero positivo: ");
+        System.out.print("Por favor, introduzca un número entero positivo: ");
         double n = sc.nextLong();
         double length = 0;
-        System.out.println("Introduzca la posición a partir de la cual quiere partir el número: ");
+        System.out.print("Introduzca la posición a partir de la cual quiere partir el número: ");
         double split= sc.nextLong();
         double half= 0;
         double counter = n;

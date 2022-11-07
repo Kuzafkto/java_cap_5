@@ -21,7 +21,7 @@ Dislocando el 137 sale el 26
 
 import java.util.Scanner;
 
-public class Ej68 {
+public class Ejercicio68 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Por favor, introduzca un número: ");

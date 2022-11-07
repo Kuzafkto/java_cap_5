@@ -12,7 +12,7 @@ que hay entre ellos (dos espacios) no cambia, lo único que varía es la altura.
 
 import java.util.Scanner;
 
-public class Ej60 {
+public class Ejercicio60 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Introduzca la altura de los calcetines: ");
