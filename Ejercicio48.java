@@ -37,6 +37,98 @@ import java.util.Scanner;
 public class Ejercicio48 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.print("Introduzca un número entero: ");
+        long n = sc.nextLong();
+        long aux=n;
+         boolean encontrado=false;
+         System.out.println("");
+         System.out.print("Dígitos que aparecen en el número: ");
+         for(int i=0; i<10;i++){
+           aux=n;
+           encontrado=false;
+         while(aux>0){
+         if(i==aux%10){
+           encontrado=true;
+        }
+           aux/=10;
+         }
+           if (encontrado){
+         System.out.printf("%d",i);
+        }
+         }
+            System.out.println("");
+            System.out.print("Dígitos que no aparecen en el número: ");
+         for(int i=0; i<10;i++){
+           aux=n;
+         encontrado=true;
+         while(aux>0 && encontrado){
+         if(i==aux%10){
+           encontrado=false;
+         }
+           aux/=10;
+         }
+           if (encontrado){
+         System.out.printf("%d",i);
+         }
+        }
+
+
+        sc.close();
+    }
+}
+
+/*
+* VERSION MADE IN CLASS BY THE TEACHER
+* import java.util.Scanner;
+
+public class Ejercicio48 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Introduzca un número entero: ");
+        long n = sc.nextLong();
+        long aux=n;
+        * boolean encontrado=false;
+        * for(int i=0; i<10;i++){
+        *   aux=n;
+        * while(aux>0){
+        * if(i==aux%10){
+        *   encontrado=true;
+        * }
+        *   aux/=10;
+        * }
+        *   if (encontrado){
+        * System.out.printf("%d , i");
+        * }
+        * }
+        *
+        * for(int i=0; i<10;i++){
+        *   aux=n;
+        * encontrado=true;
+        * while(aux>0 && encontrado){
+        * if(i==aux%10){
+        *   encontrado=false;
+        * }
+        *   aux/=10;
+        * }
+        *   if (encontrado){
+        * System.out.printf("%d , i");
+        * }
+        * }
+
+
+        sc.close();
+    }
+}
+*
+* -----------------------------------------------------------------
+*
+* MY OWN VERSION MADE BY ME
+*
+* import java.util.Scanner;
+
+public class Ejercicio48 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         System.out.println("Introduzca un número entero: ");
         long n = sc.nextLong();
         long nCopy = n;
@@ -77,3 +169,5 @@ public class Ejercicio48 {
         sc.close();
     }
 }
+*
+* */

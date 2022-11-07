@@ -46,7 +46,6 @@ public class Ejercicio47 {
 
         if (height >= 5 && height%2!=0) {
 
-
             for (int i = 0 ; i<lenght; i++){
                 System.out.print("M");
             }
