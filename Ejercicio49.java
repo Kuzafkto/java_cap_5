@@ -39,7 +39,7 @@ public class Ejercicio49 {
             n=sc.nextInt();
             //prime check
             prime = true;
-            if (n == 0) {
+            if (n == 0 || n==1) {
                 prime = false;
             } else if (n%2 == 0) {
                 prime = false;
@@ -62,7 +62,24 @@ public class Ejercicio49 {
                 //prime check
             }
        }
-        System.out.println("Ha introducido "+ counter + " numeros no primos \n" + " Máximo: " + maxNum + "\n Mínimo: " + minNum + "\n Media: " + total/counter );
+        System.out.print("Ha introducido "+ counter + " numeros no primos \n" + "Máximo: ");
+        if(maxNum!=Integer.MIN_VALUE){
+            System.out.println(maxNum);
+        }else{
+            System.out.println("0 ");
+        }
+        System.out.print("Mínimo: ");
+        if (minNum!=Integer.MAX_VALUE){
+            System.out.println(minNum);
+        }else{
+            System.out.println("0");
+        }
+        System.out.print("Media: ");
+        if(counter==0){
+            System.out.print("0");
+        }else{
+            System.out.print(total/counter);
+        }
         sc.close();
     }
 }

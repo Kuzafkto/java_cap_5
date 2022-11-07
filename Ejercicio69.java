@@ -40,7 +40,7 @@ public class Ejercicio69 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("");
-        System.out.println("Introduzca la altura de la pirámide maya: ");
+        System.out.print("Introduzca la altura de la pirámide maya: ");
         int heigth = sc.nextInt();
         int befSpace= 2;
         int line=6;
